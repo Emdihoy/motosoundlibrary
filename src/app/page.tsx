@@ -8,10 +8,21 @@ import homeStyle from "../../public/styles/home.module.scss";
 import logo from "/public/img/motoslSmall.png";
 import Footer from "./components/footer/page";
 import Header from "./components/header/page";
+import { useMotoStore } from "./store";
 
+
+const App = () => {
+  const useMotoStore = useMotoStore((state) => state.motoObject);
+  
+  return <OtherComponent count={motoObject} />
+}
 
 
 export default function Home() {
+
+
+
+
   return (
     <>
       <Header />
@@ -36,7 +47,10 @@ export default function Home() {
 
 
           <div>
-            
+            <h1>hola</h1>
+            <button>incrementar</button>
+            <button>reducir</button>
+
           </div>
 
         </main>
