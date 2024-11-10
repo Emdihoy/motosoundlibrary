@@ -12,12 +12,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.1.0",
-    "@strapi/plugin-users-permissions": "5.1.0",
-    "@strapi/strapi": "5.1.0",
+    "@strapi/plugin-cloud": "5.3.0",
+    "@strapi/plugin-users-permissions": "5.3.0",
+    "@strapi/strapi": "5.3.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
-    "pg": "8.8.0",
+    "mysql2": "3.9.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -34,6 +34,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "d7092eee-95df-47fe-8872-c5b25b4102ea"
+    "uuid": "ed6d0ad0-a771-443b-9c55-94f0b1d63bf7"
   }
 }
